@@ -1,0 +1,12 @@
+{
+  "name": "almarky-pk",
+  "version": "1.0.0",
+  "description": "Premium Pakistan Ecommerce Store",
+  "dependencies": {
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
+    "react-router-dom": "7.1.3",
+    "firebase": "11.1.0",
+    "@google/genai": "1.3.0"
+  }
+}
