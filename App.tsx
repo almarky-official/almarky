@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import { CartProvider } from './context/CartContext';
@@ -7,6 +6,8 @@ import { ProductProvider } from './context/ProductContext';
 import { AuthProvider } from './context/AuthContext';
 import { OrderProvider } from './context/OrderContext';
 import { ReviewProvider } from './context/ReviewContext';
+
+// Components
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import MobileBottomNav from './components/MobileBottomNav';
@@ -63,7 +64,6 @@ const App: React.FC = () => {
                         <Route path="/faq" element={<FAQ />} />
                         <Route path="/privacy" element={<PrivacyPolicy />} />
                         <Route path="/terms" element={<TermsOfService />} />
-                        {/* Stealth Path for Admin */}
                         <Route path="/almarky-internal-v2026" element={<AdminDashboard />} />
                         <Route path="/account" element={<Account />} />
                         <Route path="/my-orders" element={<MyOrders />} />
